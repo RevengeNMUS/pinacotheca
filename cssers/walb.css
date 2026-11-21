@@ -1,0 +1,25 @@
+:root {
+    --color-1: rgb(204 63 51);
+    --color-2: rgb(228 242 255);
+    --color-3: rgb(255 255 255);
+    --color-4: rgb(120 36 30);
+}
+
+body {
+    background-color: var(--color-4);
+    height: 90vh;
+}
+
+#main {
+    width: 250vw;
+    display: grid;
+    grid-template-columns: 100vw 50vw 100vw;
+}
+
+#walb {
+    img {
+        border-radius: 15px;
+        aspect-ratio: auto;
+        box-shadow: 4px 4px var(--color-1);
+    }
+}
